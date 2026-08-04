@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif ;
+    margin: 0% ;
+}
+
+.titulo {
+    font-size:  36px;
+    font-weight: 1;
+    text-align: center;
+    color: black;
+}
+
+.ul-nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.li-nav {
+    margin-right: 20px;
+}
+
+.list-style {
+    background-color: #8B6B4A;
+    padding: 10px;
+}
+.main-text{
+    text-align: center;
+    font-size: 15px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+
+
+.menu-li {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+#hiper {
+    text-decoration: none;
+    color: #6B3E26;
+}
+
+#nav-list {
+    text-decoration: none;
+    color: #F8F4EE;
+}

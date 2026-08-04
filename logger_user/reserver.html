@@ -11,7 +11,7 @@
             <nav>
                 <ul>
                     <li><a href="/main.html">pagina principal</a></li>
-                    <li><a href="/"></a></li>
+                    <li><a href="/logger_user/order_food.html">ordenar comida</a></li>
                     <li><a></a></li>
                 </ul>
             </nav>   
@@ -22,7 +22,7 @@
             <p>Bienvenido a nuestra pagina para hacer tu reserva.</p>
             <form> 
                 <label for="username">nombre</label><br>
-                <input type="text" id="username" required placeholder="nombre">
+                <input type="text" id="username" required placeholder="nombre" name="username">
                 <br>
                 <label for="email">Correo</label><br>
                 <input type="email" id="email_reserver" required>
@@ -30,16 +30,20 @@
                 <label for="date_reserver">Fecha reservacion</label><br>
                 <input type="datetime-local" id="date_reserver" required>
                 <br>
+                <label for="lugar_mesa">¿en que lugar quieres la mesa?</label>
+                <br>
+                <select id="lugar_mesa">
+                    <option>terraza</option>
+                    <option>interior</option>
+                </select>
+                <br>
                 <label for="note">Nota sobre reservacion</label><br>
-                <input type="text" id="note">
+                <textarea cols="50" rows="5" placeholder="¿alguna sugerencia sobre la reservacion?"></textarea>
                 <br>
                 <input type="submit" value="pedir">
             </form>
-        </section>
         <br><br>
-        <footer>
-            <a href="jaja.html">test</a>
-        </footer>
-        </center>
+    </main>
+    </center>
     </body>
 </html> 

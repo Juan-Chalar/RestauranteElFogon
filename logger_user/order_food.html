@@ -6,6 +6,14 @@
     <title>hacer pedido</title>
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/main.html">pagina principal</a></li>
+                <li><a href="reserver.html">reservar</a></li>
+            </ul>
+        </nav>
+    </header>
     <!-- Se pueden seleccionar cosas pero realmente no tiene una funcionalidad ya que es html puro. -->
         <form>  <label for="comidas">Comidas</label> 
             <select id="comidas">   
@@ -23,6 +31,9 @@
                 <option>Aguapanela</option>
                 <option>Jugo de maracuya</option>
             </select> <br>
+            <!-- El textarea es el lugar donder normalmente se reciben sugerencias-->
+            <!-- para su ancho se usa cols y para su largo rows-->
+            <textarea placeholder="¿Alguna sugerencia sobre tu pedido?" id="note_pedido" cols="30" rows="5"></textarea> <br>
             <input type="submit" value="Seleccionar">
         </form>
         

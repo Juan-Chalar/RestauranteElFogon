@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="/style/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurante El Fogón</title>
 </head>
     <body>
         <header>   
-            <nav>
-                <ul>
-                    <li><a href="/logger_user/reserver.html">reservacion</a></li>
-                    <li><a href="#menu">Menú</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
+            <nav class="list-style">
+                <ul class="ul-nav">
+                    <li class="li-nav">
+                        <a href="/logger_user/reserver.html" class="list-bar" id="nav-list">reservacion</a>
+                    </li>
+                    <li class="li-nav">
+                        <a href="/logger_user/order_food.html" class="list-bar" id="nav-list">ordenar pedido</a>
+                    </li>
+                    <li class="li-nav" id="hiper">
+                        <a href="#contacto" class="list-bar" id="nav-list">Contacto</a>
+                    </li>
                 </ul>
             </nav>
-            <h1>Restaurante El Fogón.</h1>
+            <h1 class="titulo">Restaurante El Fogón.</h1>
         </header>
         <section id="descripcion_restaurante">
         <main>
-            <p>El Fogón es un restaurante ficticio dedicado a la preparación y venta de comida típica colombiana. 
+            <p class="main-text">El Fogón es un restaurante ficticio dedicado a la preparación y venta de comida típica colombiana. 
             <br>Su objetivo es ofrecer platos de alta calidad, preparados con ingredientes frescos y un excelente servicio al cliente. <br>
             El restaurante atiende tanto a clientes que consumen en el establecimiento como a quienes realizan pedidos para llevar.</p>
         </section>
-        <section id="menu">
+        <section id="menu" class="menu">
             <h2>Nuestro menu</h2>
                 <ol>
-                    <li><strong><a href="/receta/bandejaPaisa.html" target="_blank">Bandeja Paisa </a></strong></li>
-                    <li><strong><a href="/receta/sancochoDeGallina.html" target="_blank">Sancocho de Gallina</a></strong></li>
-                    <li><strong><a href="/receta/ajiaco.html" target="_blank">Ajiaco Santafereño</a></strong></li>
-                    <li><strong><a href="/receta/chuleta.html" target="_blank">Chuleta Valluna</a></strong></li>
+                    <li class="menu-li"><strong><a href="/receta/bandejaPaisa.html" target="_blank" id="hiper">Bandeja Paisa </a></strong></li>
+                    <li class="menu-li"><strong><a href="/receta/sancochoDeGallina.html" target="_blank" id="hiper">Sancocho de Gallina</a></strong></li>
+                    <li class="menu-li"><strong><a href="/receta/ajiaco.html" target="_blank" id="hiper">Ajiaco Santafereño</a></strong></li>
+                    <li class="menu-li"><strong><a href="/receta/chuleta.html" target="_blank" id="hiper">Chuleta Valluna</a></strong></li>
                 </ol>
             </section>
         </main>
